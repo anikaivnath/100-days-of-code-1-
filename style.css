@@ -9,16 +9,18 @@ body{
     justify-content: center;
     margin-top: 100px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
    
   
-    
 }
+
 .section{
     background-color: #e8f1f5;
     width: 450px;
     height: 450px;
     border-top-left-radius: 40px;
     border-bottom-left-radius: 40px;
+    box-shadow: 4px 4px 4px grey;
    
     
 }
@@ -79,6 +81,10 @@ i{
     height: 450px;
    
     color: aliceblue;
+    border-top-right-radius: 20px;
+    box-shadow: 2px 2px 2px grey;
+    border-bottom-right-radius: 20px;
+    
    
     
     
@@ -86,15 +92,60 @@ i{
 .paragraph{
     padding: 30px;
     text-align: justify;
+    margin-bottom: 50;
 }
 .amount{
     border: 3px solid;
-    background-color:rgb(17, 13, 39) ;
+    border-color:rgb(28, 24, 56) ;
     margin: auto;
     text-align: center;
     background-color: none;
     width: 300px;
     background-color: rgb(28, 24, 56);
+    border-block-start-color: rgb(240, 240, 37);
+    
 
 
+}
+.line{
+    border: 1px solid;
+    width: 180px;
+    margin:8px;
+    margin-top: 26px;
+    
+    
+}
+.line1{
+    display: flex;
+    
+}
+.tk{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.line2{
+    border: 1px solid;
+    width: 180px;   
+    margin-top: 19px;
+    margin-left: 5px;
+
+}
+.line3{
+    display: flex;
+    margin: 12px;
+    padding-left: 22px;
+}
+
+#icon2{
+   
+    
+    margin: auto;   
+    background-color: rgb(225, 255, 53) ;
+    margin-top: 95px;
+    color: black;
+    padding: 10px 10px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    justify-content: center;
 }
