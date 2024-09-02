@@ -15,7 +15,7 @@ body{
 }
 
 .section{
-    background-color: #e8f1f5;
+    background-color: #ffffff;
     width: 450px;
     height: 450px;
     border-top-left-radius: 40px;
@@ -44,11 +44,9 @@ h2{
 }
 #icon{
     display: flex;
-    
     margin: auto;   
     background-color: rgb(212, 236, 75) ;
-    margin-top: 30px;
-    
+    margin-top: 30px; 
     padding: 10px 10px;
     border-radius: 10px;
     text-align: center;
@@ -79,14 +77,12 @@ i{
     background-color:#425d6d;
     width: 400px;
     height: 450px;
-   
     color: aliceblue;
     border-top-right-radius: 20px;
     box-shadow: 2px 2px 2px grey;
     border-bottom-right-radius: 20px;
     
-   
-    
+     
     
 }
 .paragraph{
@@ -95,6 +91,7 @@ i{
     margin-bottom: 50;
 }
 .amount{
+  
     border: 3px solid;
     border-color:rgb(28, 24, 56) ;
     margin: auto;
@@ -106,6 +103,9 @@ i{
     
 
 
+}
+.amnt{
+    margin-top: 10px;
 }
 .line{
     border: 1px solid;
@@ -141,11 +141,16 @@ i{
     
     margin: auto;   
     background-color: rgb(225, 255, 53) ;
-    margin-top: 95px;
+    margin-top: 75px;
     color: black;
     padding: 10px 10px;
     border-radius: 10px;
     text-align: center;
     width: 300px;
     justify-content: center;
+}
+.amnt2{
+    margin-top: 10px;
+    padding-right: 80px;
+
 }
