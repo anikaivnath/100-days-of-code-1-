@@ -100,6 +100,8 @@ i{
     width: 300px;
     background-color: rgb(28, 24, 56);
     border-block-start-color: rgb(240, 240, 37);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     
 
 
